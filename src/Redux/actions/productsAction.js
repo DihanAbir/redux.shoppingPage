@@ -1,4 +1,4 @@
-import { actionsTypes } from "../contains/actionsTypes";
+import { actionsTypes } from "../contains/productsType";
 
 export const setProducts = (products) => {
   return {

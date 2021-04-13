@@ -13,3 +13,9 @@ export const selectedProducts = (product) => {
     payload: product,
   };
 };
+
+export const removeSelectedProducts = () => {
+  return {
+    type: actionsTypes.REMOVE_SELECTED_PRODUCTS,
+  };
+};
